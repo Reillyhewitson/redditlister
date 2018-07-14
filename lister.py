@@ -18,3 +18,5 @@ while True:
         print('oops. We seem to have had an issue, please try again later or try a different sub!')
     except KeyboardInterrupt:
         break
+    except:
+        print('ah well, seems like something went wrong.')
