@@ -15,7 +15,8 @@ while True:
         link = int(input('Please select the post you want to read: '))
         webbrowser.open(result['data']['children'][link]['data']['url'])
     except KeyError:
-        print('oops. We seem to have had an issue, please try again later or try a different sub!')
+        print('oops. We seem to have had an issue, please try again later')
+        break
     except KeyboardInterrupt:
         break
     except:
