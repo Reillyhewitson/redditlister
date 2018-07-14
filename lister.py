@@ -1,7 +1,7 @@
 import requests
 import webbrowser
 print('you can press ctrl-c to exit')
-while true:
+while True:
     try:
         sub = str(input('Hey what sub do you want to look at? '))
         request = requests.get('https://www.reddit.com/r/'+sub+'.json')
